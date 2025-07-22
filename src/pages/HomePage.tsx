@@ -1,8 +1,15 @@
 import Home from "../components/Home"
-
+import Navbar from "../components/Navbar";
+import Services from '../components/Services'
+import Footer from "../components/Footer"
 const HomePage = () => {
   return (
-    <Home/>
+    <>
+      <Navbar />
+      <Home />
+      <Services />
+      <Footer />
+    </>
   )
 }
 
